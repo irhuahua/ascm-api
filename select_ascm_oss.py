@@ -49,4 +49,6 @@ if __name__ == '__main__':
         as_client = ASClient("67cQ09kddsP2pdWJ", "UbC6nKFwrLFLE8FNOPsV7w3p7G02cg", "cn-jinan-sdhs-d01")
         
     github
+    centos8
+    sky -a
 '''
