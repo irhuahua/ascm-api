@@ -48,3 +48,4 @@ if __name__ == '__main__':
     req.add_query_param("version", "2018-12-12")
         as_client = ASClient("67cQ09kddsP2pdWJ", "UbC6nKFwrLFLE8FNOPsV7w3p7G02cg", "cn-jinan-sdhs-d01")
 '''
+winpush
