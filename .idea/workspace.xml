@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d854be3e-690c-42cc-8982-ce343385ac58" name="更改" comment="update README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/Project-python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ascm-select-odps-cu_disk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ascm_select_rds.py" afterDir="false" />
+    <list default="true" id="d854be3e-690c-42cc-8982-ce343385ac58" name="更改" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ascm_select_bucket.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_bucket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ascm_select_odps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_odps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ascm_select_oss.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_oss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ascm_select_slb.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_slb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629695814020</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1629702709244</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629702709244</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <created>1629702863357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629702863358</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,6 +370,7 @@
     </ignored-roots>
     <MESSAGE value="Project-python" />
     <MESSAGE value="update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
