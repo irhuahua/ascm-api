@@ -31,7 +31,7 @@ if __name__ == '__main__':
             参数2: 对应公共参数AccessKeySecret
             参数3：对应公共参数RegionId
     '''
-    as_client = ASClient("IDtLg7xElswktGPL", "p3YRKLqSlS5FSgvcu55rvsX3anO1Ch", "cn-jinan-sdhs-d01")
+    as_client = ASClient("wR90QcTjFmR94i5O", "J8uBvYM1RTxdNLtmoUBI1fglucO0mk", "cn-jinan-sdhs-d01")
     response = as_client.do_request(req)
 
     print(response)

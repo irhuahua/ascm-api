@@ -12,10 +12,11 @@ if __name__ == '__main__':
             参数3: 对应公共参数Action(API名称)
             参数4: 对应ASAPI的服务endpoint
     '''
-    req = AsapiRequest("slb", "2014-05-15", "DescribeLoadBalancers", api_gateway)
+    req = AsapiRequest("Rds", "2014-08-15", "DescribeDBInstanceAttribute", api_gateway)
 
     #业务信息,具体可以参考对应的API说明
     req.add_query_param("Department", "3")
+    req.add_query_param("DBInstanceld", "rm-p1e4i0zpis2br84jt")
 
 
     #Header信息
@@ -35,21 +36,3 @@ if __name__ == '__main__':
     response = as_client.do_request(req)
 
     print(response)
-
-
-
-
-
-
-
-
-
-
-'''
-oss的基本信息api
-req = AsapiRequest("OneRouter", "2018-12-12", "DoOpenApi", api_gateway)
-#业务信息,具体可以参考对应的API说明
-req.add_query_param("ProductName", "oss")
-req.add_query_param("OpenApiAction", "GetService")
-'''
-

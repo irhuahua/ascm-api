@@ -12,10 +12,10 @@ if __name__ == '__main__':
             参数3: 对应公共参数Action(API名称)
             参数4: 对应ASAPI的服务endpoint
     '''
-    req = AsapiRequest("slb", "2014-05-15", "DescribeLoadBalancers", api_gateway)
+    req = AsapiRequest("ascm", "2019-05-10", "ListOdpsEngineQuota", api_gateway)
 
     #业务信息,具体可以参考对应的API说明
-    req.add_query_param("Department", "3")
+    req.add_query_param("id", "26")
 
 
     #Header信息
@@ -37,19 +37,7 @@ if __name__ == '__main__':
     print(response)
 
 
-
-
-
-
-
-
-
-
 '''
-oss的基本信息api
-req = AsapiRequest("OneRouter", "2018-12-12", "DoOpenApi", api_gateway)
-#业务信息,具体可以参考对应的API说明
-req.add_query_param("ProductName", "oss")
-req.add_query_param("OpenApiAction", "GetService")
+这个id为上一个api获取的engineId
+这里的disk 为1 表示1*1024G
 '''
-

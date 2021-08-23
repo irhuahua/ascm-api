@@ -55,5 +55,5 @@ as_client = ASClient("0bnnnwbHEcpWRl2k", "BAmirM01cB3unSl3Tz8ZRVpf2iqgA7", "cn-j
 {"Data":{"BucketUserQos":{"StorageCapacity":"5000"}},"RequestId":"611CB84C458DCFB3BD52AE2B"}
 [root@r010c4001.cloud.c4.am1 /root] 山东高速OPS1 
 #
-
+oneconsole签名使用的，使用用户ak调用时，传递一个“”空字符串就行，后端会根据参数处理的
 '''

@@ -21,7 +21,7 @@ if __name__ == '__main__':
     req.add_query_param("CurrentPage", "1")
 
     #Header信息
-
+    req.add_header("x-acs-organizationId", "3");
 
     #请求类型，默认GET,可以省略
     req.set_method("GET")
@@ -33,7 +33,7 @@ if __name__ == '__main__':
             参数2: 对应公共参数AccessKeySecret
             参数3：对应公共参数RegionId
     '''
-    as_client = ASClient("67cQ09kddsP2pdWJ", "UbC6nKFwrLFLE8FNOPsV7w3p7G02cg", "cn-jinan-sdhs-d01")
+    as_client = ASClient("0bnnnwbHEcpWRl2k", "BAmirM01cB3unSl3Tz8ZRVpf2iqgA7", "cn-jinan-sdhs-d01")
     response = as_client.do_request(req)
 
     print(response)
