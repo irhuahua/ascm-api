@@ -32,7 +32,7 @@ if __name__ == '__main__':
             参数2: 对应公共参数AccessKeySecret
             参数3：对应公共参数RegionId
     '''
-    as_client = ASClient("0bnnnwbHEcpWRl2k", "BAmirM01cB3unSl3Tz8ZRVpf2iqgA7", "cn-jinan-sdhs-d01")
+    as_client = ASClient("D9ZK4XH4O7yG9BDU", "JW4uzh7U7zZpbaCJUlOR4Mc9ukUSWV", "cn-jinan-sdhs-d01")
     response = as_client.do_request(req)
 
     print(response)

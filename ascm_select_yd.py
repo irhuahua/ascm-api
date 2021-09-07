@@ -12,11 +12,11 @@ if __name__ == '__main__':
             参数3: 对应公共参数Action(API名称)
             参数4: 对应ASAPI的服务endpoint
     '''
-    req = AsapiRequest("slb", "2014-05-15", "DescribeLoadBalancers", api_gateway)
+    req = AsapiRequest("ascm", "2018-12-24", "DescribeSecureSuggestion", api_gateway)
 
     #业务信息,具体可以参考对应的API说明
     req.add_query_param("Department", "3")
-
+    req.add_query_param("Type", "cve")
 
     #Header信息
 
@@ -31,14 +31,7 @@ if __name__ == '__main__':
             参数2: 对应公共参数AccessKeySecret
             参数3：对应公共参数RegionId
     '''
-    as_client = ASClient("ekM4xR0eN5sLzLWC", "VllhwYU0X3SHP66p3vMH4axnKwb4Uw", "cn-jinan-sdhs-d01")
+    as_client = ASClient("D9ZK4XH4O7yG9BDU", "JW4uzh7U7zZpbaCJUlOR4Mc9ukUSWV", "cn-jinan-sdhs-d01")
     response = as_client.do_request(req)
 
     print(response)
-
-
-'''
-slb DescribeLoadBalancers  版本2014-05-15
-slb DescribeLoadBalancers  获取实例列表
-slb   DescribeLoadBalancerAttribute  获取指定负载均衡实例的详细信息
-'''

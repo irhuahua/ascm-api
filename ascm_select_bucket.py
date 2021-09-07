@@ -56,4 +56,8 @@ as_client = ASClient("0bnnnwbHEcpWRl2k", "BAmirM01cB3unSl3Tz8ZRVpf2iqgA7", "cn-j
 [root@r010c4001.cloud.c4.am1 /root] 山东高速OPS1 
 #
 oneconsole签名使用的，使用用户ak调用时，传递一个“”空字符串就行，后端会根据参数处理的
+
+
+
+curl "http://server.asapi.cn-jinan-sdhs-d01.ops.sdhs.cloud/asapi/v3?Action=DoOpenApi&Product=OneRouter&Version=2018-12-12&AccessKeyId=0bnnnwbHEcpWRl2k&AccessKeySecret=BAmirM01cB3unSl3Tz8ZRVpf2iqgA7&RegionId=cn-jinan-sdhs-d01&ProductName=oss&OpenApiAction=GetBucketStorageCapacity&AccountInfo=aaa&Department=3&Params=\{\"BucketName\":\"user-image\",\"region\":\"cn-jinan-sdhs-d01\"\}"
 '''

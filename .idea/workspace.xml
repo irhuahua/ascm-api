@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d854be3e-690c-42cc-8982-ce343385ac58" name="更改" comment="update">
+      <change afterPath="$PROJECT_DIR$/ascm_select_yd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ascm-select-odps-cu_disk.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm-select-odps-cu_disk.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ascm_select_bucket.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_bucket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ascm_select_odps.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_odps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ascm_select_oss.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_oss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ascm_select_rds.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_rds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ascm_select_slb.py" beforeDir="false" afterPath="$PROJECT_DIR$/ascm_select_slb.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +49,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/新建草稿文件" value="yaml" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project-ascm-api" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\花花\Project-python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ascm-select-odps-cu_disk">
+  <component name="RunManager" selected="Python.ascm_select_yd">
+    <configuration name="odps_shujuyunying.osql" type="OdpsQLRunnerConfigurationType" factoryName="MaxCompute SQL">
+      <odps_target_file>$APPLICATION_CONFIG_DIR$/scratches/odps_shujuyunying.osql</odps_target_file>
+      <odps_output_dir>C:\Users\花花\AppData\Local\Temp\</odps_output_dir>
+      <job_name>odps_shujuyunying_osql</job_name>
+      <odps_parameter name="odps.compiler.runmode" value="Studio" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ascm-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,27 +127,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ascm_select_odps (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Project-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ascm_select_odps.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ascm_select_oss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,6 +161,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ascm_select_rds.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ascm_select_yd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Project-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ascm_select_yd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,19 +287,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="MaxCompute SQL.odps_shujuyunying.osql" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.ascm_select_oss" />
-      <item itemvalue="Python.ascm_select_bucket" />
       <item itemvalue="Python.ascm_select_rds" />
-      <item itemvalue="Python.ascm_select_odps (1)" />
+      <item itemvalue="Python.ascm_select_bucket" />
       <item itemvalue="Python.ascm-select-odps-cu_disk" />
+      <item itemvalue="Python.ascm_select_yd" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ascm-select-odps-cu_disk" />
-        <item itemvalue="Python.ascm_select_odps (1)" />
-        <item itemvalue="Python.ascm_select_rds" />
+        <item itemvalue="Python.ascm_select_yd" />
         <item itemvalue="Python.ascm_select_oss" />
+        <item itemvalue="Python.ascm_select_rds" />
+        <item itemvalue="Python.ascm-select-odps-cu_disk" />
         <item itemvalue="Python.ascm_select_bucket" />
       </list>
     </recent_temporary>
@@ -348,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629702863358</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1629706766825</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629706766825</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
